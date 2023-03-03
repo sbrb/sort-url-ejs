@@ -1,0 +1,83 @@
+body {
+  display: grid;
+  place-items: center;
+  font-family: 'Nunito', sans-serif;
+  background-color: #ecf4ad;
+  color: #1a237e;
+}
+
+h1 {
+  color: rgb(204, 0, 255);
+  font-weight: bold;
+  font-style: italic;
+  text-decoration: underline;
+  margin-top: 160px;
+}
+
+.short-url {
+  margin: 20px;
+}
+
+.short-url a {
+  color: #0015ff;
+  text-decoration: none;
+  font-size: 20px;
+}
+
+input[type='url'] {
+  display: block;
+  width: 40vw;
+  height: 40px;
+  padding-left: 33px;
+  border-radius: 15px;
+  border: 2px solid red;
+  font-size: 18px;
+  margin-top: 22px;
+}
+
+input[type='submit'] {
+  display: block;
+  margin: 10px auto;
+  margin-top: 30px;
+  background-color: #4a64f9;
+  color: white;
+  border: 0px;
+  border-radius: 2px;
+  padding: 4px 8px;
+  font-family: 'Nunito', sans-serif;
+  border-radius: 15px;
+  width: 170px;
+  height: 40px;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+input:focus {
+  background-color: lightblue;
+}
+
+p.error {
+  color: #f44336;
+  font-size: 22px;
+}
+
+.end-class {
+  color: #9b36f4;
+  font-size: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  margin-top: 10px;
+}
+
+span {
+  color: #36c8f4;
+  font-weight: bold;
+}
+
+.linkedin {
+  font-size: 20px;
+  text-decoration: underline;
+  font-style: italic;
+  margin: 10px;
+  font-weight: bold;
+}
